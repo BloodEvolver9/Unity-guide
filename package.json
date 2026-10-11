@@ -1,0 +1,9 @@
+{
+  "name": "unityforge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Unity learning hub with an AI tutor and C# practice workspace",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": { "express": "^4.21.2", "openai": "^4.77.0" }
+}
